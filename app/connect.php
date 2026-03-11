@@ -1,8 +1,8 @@
 <?php
-$host = 'db';
-$db   = 'poker';
-$user = 'poker_user';
-$pass = 'poker_pass';
+$host = 'sql12.freesqldatabase.com';
+$db   = 'sql12819633';
+$user = 'sql12819633';
+$pass = 'Cme2eMZ6KL';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
