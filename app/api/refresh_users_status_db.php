@@ -90,7 +90,7 @@ $totalPoints = 0;
 $bidCount    = 0;
 
 // Output table
-echo "<table>";
+echo "<table style=\"width:60%; margin:auto;\">";
 
 // Table header
 echo "<tr>
@@ -98,7 +98,7 @@ echo "<tr>
 		<th>Points</th>";
 
 if ($showPoints) {
-	echo "<th>Story Type</th>";
+	echo "<th width=\"30%\">Story Type</th>";
 }
 
 echo "</tr>";
