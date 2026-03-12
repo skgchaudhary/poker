@@ -164,7 +164,7 @@ $sessions = $stmt->fetchAll();
 
 	<form method="post" action="<?= $BASE ?>/api/create-session">
 		<label for="session_id">Session ID</label>
-		<input type="text" id="session_id" name="session_id" required maxlength="100" placeholder="e.g. sprint-42">
+		<input type="text" id="session_id" name="session_id" required maxlength="100" placeholder="e.g. XMS-1234, sprint-42">
 		<button type="submit">Create Session</button>
 	</form>
 
